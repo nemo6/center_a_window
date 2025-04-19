@@ -73,7 +73,7 @@ int main() {
         // -17px height, detect horizontal scroll bar
 
         printf( "%d,%d\n", LEFT, TOP );
-        printf( "margin: %d, margin right: %d\n", (screenWidth - LEFT)-7 , screenHeight - TOP );
+        printf( "margin: %d, margin right: %d\n", (screenWidth - LEFT)-7 , (screenHeight - TOP) - 17 );
 
         Sleep(1000);counter++;
 
